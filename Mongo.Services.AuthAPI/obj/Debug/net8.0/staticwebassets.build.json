@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DBF/Sz9Ol7GH2naAKHeK92w4pkKKFi2rCS72C+REJeI=",
+  "Source": "Mongo.Services.AuthAPI",
+  "BasePath": "_content/Mongo.Services.AuthAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
