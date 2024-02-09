@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Mongo.Web.Service;
 using Mongo.Web.Service.IService;
 using Mongo.Web.Utility;
@@ -15,11 +16,18 @@ SD.AuthApiBase = builder.Configuration["ServiceUrls:AuthAPI"];
 
 
 
-
+builder.Services.AddScoped<ITokenProvider, TokenProvider>();
 builder.Services.AddScoped<IBaseService, BaseService>();
 builder.Services.AddScoped<ICouponService, CouponService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
-
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(
+        option =>
+        {
+            option.ExpireTimeSpan = TimeSpan.FromHours(10);
+            option.LoginPath = "/Auth/Login";
+            option.AccessDeniedPath = "/Auth/AcessDenied";
+        });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -34,7 +42,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
