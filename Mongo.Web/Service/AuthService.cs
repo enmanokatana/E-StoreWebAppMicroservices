@@ -18,30 +18,32 @@ public class AuthService:IAuthService
     {
         return await _baseService.SendAsync(new RequestDto()
         {
-            ApiType = SD.ApiType.GET,
+            ApiType = SD.ApiType.POST,
             Data =loginRequestDto, 
-            Url = SD.CouponApiBase + "/api/auth/Login"
+            Url = SD.AuthApiBase + "/api/auth/Login"
 
         });
     }
 
-    public async Task<ResponseDto?> RegisterAsync(RegiterationRequestDto regiterationRequestDto)
+    public async Task<ResponseDto?> RegisterAsync(RegiterationRequestDto registrationRequestDto)
     {
         return await _baseService.SendAsync(new RequestDto()
         {
-            ApiType = SD.ApiType.GET,
-            Data = regiterationRequestDto, 
-            Url = SD.CouponApiBase + "/api/auth/register"
-            
-        });    }
+            ApiType = SD.ApiType.POST,
+            Data = registrationRequestDto,
+            Url = SD.AuthApiBase + "/api/auth/register"
+        
+    });
+    }
+    
 
     public async Task<ResponseDto?> AssignRoleAsync(RegiterationRequestDto regiterationRequestDto)
     {
         return await _baseService.SendAsync(new RequestDto()
         {
-            ApiType = SD.ApiType.GET,
+            ApiType = SD.ApiType.POST,
             Data = regiterationRequestDto, 
-            Url = SD.CouponApiBase + "/api/auth/AssignRole"
+            Url = SD.AuthApiBase + "/api/auth/AssignRole"
             
         });
         

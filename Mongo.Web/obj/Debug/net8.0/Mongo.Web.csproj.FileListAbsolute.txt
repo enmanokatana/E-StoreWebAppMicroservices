@@ -31,3 +31,4 @@ C:\Users\hp\source\repos\Mongo\Mongo.Web\obj\Debug\net8.0\refint\Mongo.Web.dll
 C:\Users\hp\source\repos\Mongo\Mongo.Web\obj\Debug\net8.0\Mongo.Web.pdb
 C:\Users\hp\source\repos\Mongo\Mongo.Web\obj\Debug\net8.0\Mongo.Web.genruntimeconfig.cache
 C:\Users\hp\source\repos\Mongo\Mongo.Web\obj\Debug\net8.0\ref\Mongo.Web.dll
+C:\Users\hp\source\repos\Mongo\Mongo.Web\obj\Debug\net8.0\Mongo.Web.sourcelink.json
