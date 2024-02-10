@@ -22,7 +22,7 @@ public class AuthService:IAuthService
             Data =loginRequestDto, 
             Url = SD.AuthApiBase + "/api/auth/Login"
 
-        });
+        },withBearer:false);
     }
 
     public async Task<ResponseDto?> RegisterAsync(RegiterationRequestDto registrationRequestDto)
@@ -33,7 +33,7 @@ public class AuthService:IAuthService
             Data = registrationRequestDto,
             Url = SD.AuthApiBase + "/api/auth/register"
         
-    });
+    },withBearer:false);
     }
     
 
@@ -45,7 +45,7 @@ public class AuthService:IAuthService
             Data = regiterationRequestDto, 
             Url = SD.AuthApiBase + "/api/auth/AssignRole"
             
-        });
+        },withBearer:false);
         
     }
     

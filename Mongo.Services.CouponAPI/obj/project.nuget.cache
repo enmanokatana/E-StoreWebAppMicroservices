@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ubrGuhoP3To+OmpixwmRVk5SWyBqx/gPoawt02Bt+FWm8BPThRLdjrqwQvpnKANgXPhAjmUm9N8uVBn/NPT/Tg==",
+  "dgSpecHash": "FTW9c/ZlRK/zkm/xKbOmXfeUJR79rPSRCNOOHLdy/Y9tWQlxTsuuYZY5F2/ecsm721fho6SVKu0P2zP5BJnk2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Services.CouponAPI\\Mongo.Services.CouponAPI.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Services.CouponAPI\\Mongo.Services.CouponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

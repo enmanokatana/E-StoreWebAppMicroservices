@@ -254,11 +254,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Web\\Mongo.Web.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Web\\Mongo.Web.csproj",
       "projectName": "Mongo.Web",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Web\\Mongo.Web.csproj",
+      "projectPath": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Web\\Mongo.Web.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Web\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

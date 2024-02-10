@@ -4343,11 +4343,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Services.CouponAPI\\Mongo.Services.CouponAPI.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Services.CouponAPI\\Mongo.Services.CouponAPI.csproj",
       "projectName": "Mongo.Services.CouponAPI",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Services.CouponAPI\\Mongo.Services.CouponAPI.csproj",
+      "projectPath": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Services.CouponAPI\\Mongo.Services.CouponAPI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Services.CouponAPI\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Services.CouponAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

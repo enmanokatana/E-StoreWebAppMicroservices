@@ -8199,11 +8199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Services.AuthAPI\\Mongo.Services.AuthAPI.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Services.AuthAPI\\Mongo.Services.AuthAPI.csproj",
       "projectName": "Mongo.Services.AuthAPI",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Services.AuthAPI\\Mongo.Services.AuthAPI.csproj",
+      "projectPath": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Services.AuthAPI\\Mongo.Services.AuthAPI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Services.AuthAPI\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Services.AuthAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

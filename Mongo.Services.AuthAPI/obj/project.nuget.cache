@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DF2+NkJHuRIuKj5isWngTa0BO+mQ6mjGxj3+BwM7/3jXwNoWl7nK+QpRKbFCUKUKc10lhOfJnkAYcRTp6gxB5A==",
+  "dgSpecHash": "kvLXlBY9xixCIytxCTi/wIcOsj/JPwOk8gWEOKkbymtFUwRej2rrPLP9+D3BSicpK+y2SCE1LSmze6Usla8Hzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\Mongo\\Mongo.Services.AuthAPI\\Mongo.Services.AuthAPI.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Documents\\GitHub\\E-StoreWebAppMicroservices\\Mongo.Services.AuthAPI\\Mongo.Services.AuthAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
