@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.Web", "Mongo.Web\Mong
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.Services.AuthAPI", "Mongo.Services.AuthAPI\Mongo.Services.AuthAPI.csproj", "{E1FFB140-2F40-4440-A602-724F0D2BD0E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.Services.ProductApi", "Mongo.Services.ProductApi\Mongo.Services.ProductApi.csproj", "{F2F1AD15-1631-4452-88A5-BC0A8681EC80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{E1FFB140-2F40-4440-A602-724F0D2BD0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1FFB140-2F40-4440-A602-724F0D2BD0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1FFB140-2F40-4440-A602-724F0D2BD0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F1AD15-1631-4452-88A5-BC0A8681EC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F1AD15-1631-4452-88A5-BC0A8681EC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F1AD15-1631-4452-88A5-BC0A8681EC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F1AD15-1631-4452-88A5-BC0A8681EC80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{BBB029A9-DA83-4075-934F-9618BE2B94F4} = {18C51883-F25D-4E81-96C2-AD533B4DBF9C}
 		{2E91CCBF-5C1D-447D-A7E0-7E9685443CB9} = {5FB6197A-1640-4D44-A73E-1603029C3839}
 		{E1FFB140-2F40-4440-A602-724F0D2BD0E1} = {18C51883-F25D-4E81-96C2-AD533B4DBF9C}
+		{F2F1AD15-1631-4452-88A5-BC0A8681EC80} = {18C51883-F25D-4E81-96C2-AD533B4DBF9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3747DAA2-5C38-4C93-975B-FCA344AD9934}
