@@ -12,10 +12,11 @@ builder.Services.AddHttpClient();
 builder.Services.AddHttpClient<ICouponService, CouponService>();
 builder.Services.AddHttpClient<IAuthService, AuthService>();
 builder.Services.AddHttpClient<IProductService, ProductService>();
+var test = builder.Configuration.GetSection("ServiceUrls");
+
 SD.CouponApiBase = builder.Configuration["ServiceUrls:CouponAPI"];
 SD.AuthApiBase = builder.Configuration["ServiceUrls:AuthAPI"];
-SD.ProductApiBase = builder.Configuration["ServicesUrls:ProductAPI"];
-
+SD.ProductApiBase = test.GetSection("ProductApi").Value;
 
 
 builder.Services.AddScoped<ITokenProvider, TokenProvider>();

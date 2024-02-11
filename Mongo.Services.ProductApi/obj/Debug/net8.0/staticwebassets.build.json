@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xZ4U4BlcdSazhLP8hOgmZaSTnpB8c87NTsoebsPH/7o=",
+  "Source": "Mongo.Services.ProductApi",
+  "BasePath": "_content/Mongo.Services.ProductApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

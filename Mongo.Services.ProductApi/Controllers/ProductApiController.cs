@@ -104,9 +104,8 @@ public class ProductApiController : ControllerBase
     }
 
     [HttpDelete]
-    [Authorize(Roles = SD.RoleAdmin)]
-
-   // [Route("{id}")]
+    [Authorize(Roles = SD.RoleAdmin)] 
+    [Route("{id}")]
     public ResponseDto Delete(int id)
     {
         try

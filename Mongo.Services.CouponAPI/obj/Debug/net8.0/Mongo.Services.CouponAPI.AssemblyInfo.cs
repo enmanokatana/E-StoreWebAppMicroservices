@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mongo.Services.CouponAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a72d3e40848cb37c52d23032be6a778afd295b5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+159ca567fd85bdda9af8b64e89af4604f99e31df")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mongo.Services.CouponAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mongo.Services.CouponAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
