@@ -10,7 +10,6 @@ namespace Mongo.Services.CouponAPI.Controllers
 {
     [Route("api/coupon")]
     [ApiController]
-    [Authorize]
     public class CouponApiController : ControllerBase
     {
         private readonly AppDbContext _db;

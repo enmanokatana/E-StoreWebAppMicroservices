@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mongo.Services.AuthAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+159ca567fd85bdda9af8b64e89af4604f99e31df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c0fdd1a3931409fe3c956d11776a3f260d7db1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mongo.Services.AuthAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mongo.Services.AuthAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

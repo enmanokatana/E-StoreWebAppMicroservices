@@ -9,9 +9,8 @@ using Mongo.Services.ProductApi.Utility;
 namespace Mongo.Services.ProductApi.Controllers;
 [Route("api/product")]
 [ApiController]
-[Authorize]
 
-public class ProductApiController : ControllerBase
+public class ProductApiController : ControllerBase 
 {
     private readonly AppDbContext _db;
     private IMapper _mapper;
