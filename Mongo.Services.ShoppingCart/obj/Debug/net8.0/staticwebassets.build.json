@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Wz3onUiTCyfTd1PVHaIdjbLJqRFBlfmZq9pKwMMieN8=",
+  "Source": "Mongo.Services.ShoppingCart",
+  "BasePath": "_content/Mongo.Services.ShoppingCart",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
