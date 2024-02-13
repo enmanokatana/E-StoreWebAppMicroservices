@@ -140,3 +140,8 @@ C:\Users\hp\Documents\GitHub\E-StoreWebAppMicroservices\Mongo.Services.ShoppingC
 C:\Users\hp\Documents\GitHub\E-StoreWebAppMicroservices\Mongo.Services.ShoppingCart\obj\Debug\net8.0\Mongo.Services.ShoppingCart.genruntimeconfig.cache
 C:\Users\hp\Documents\GitHub\E-StoreWebAppMicroservices\Mongo.Services.ShoppingCart\obj\Debug\net8.0\ref\Mongo.Services.ShoppingCart.dll
 C:\Users\hp\Documents\GitHub\E-StoreWebAppMicroservices\Mongo.Services.ShoppingCart\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\hp\Documents\GitHub\E-StoreWebAppMicroservices\Mongo.Services.ShoppingCart\bin\Debug\net8.0\Azure.Core.Amqp.dll
+C:\Users\hp\Documents\GitHub\E-StoreWebAppMicroservices\Mongo.Services.ShoppingCart\bin\Debug\net8.0\Azure.Messaging.ServiceBus.dll
+C:\Users\hp\Documents\GitHub\E-StoreWebAppMicroservices\Mongo.Services.ShoppingCart\bin\Debug\net8.0\Microsoft.Azure.Amqp.dll
+C:\Users\hp\Documents\GitHub\E-StoreWebAppMicroservices\Mongo.Services.ShoppingCart\bin\Debug\net8.0\Mongo.ServiceBus.dll
+C:\Users\hp\Documents\GitHub\E-StoreWebAppMicroservices\Mongo.Services.ShoppingCart\bin\Debug\net8.0\Mongo.ServiceBus.pdb

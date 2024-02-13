@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "z32NB3nL9BXfINBLOm1ElH/GxeCfsqvcj3vkVXgPgkg=",
+  "Source": "Mongo.Service.EmailAPI",
+  "BasePath": "_content/Mongo.Service.EmailAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

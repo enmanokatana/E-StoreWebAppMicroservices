@@ -2,11 +2,13 @@ using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Mongo.ServiceBus;
 using Mongo.Services.ShoppingCart;
 using Mongo.Services.ShoppingCart.Data;
 using Mongo.Services.ShoppingCart.Exstensions;
 using Mongo.Services.ShoppingCart.Service;
 using Mongo.Services.ShoppingCart.Service.IService;
+using Mongo.Services.ShoppingCart.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,12 +28,14 @@ var link2 = builder.Configuration.GetSection("ServiceUrls").GetSection("CouponAP
 
 builder.Services.AddHttpClient("Product", u => u.BaseAddress =
     new Uri(link)
-);
+).AddHttpMessageHandler<BackEndApiAuthenticationHttpClientHandler>();
 builder.Services.AddHttpClient("Coupon", u => u.BaseAddress =
     new Uri(link2)
-);
+).AddHttpMessageHandler<BackEndApiAuthenticationHttpClientHandler>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<BackEndApiAuthenticationHttpClientHandler>();
 builder.Services.AddScoped<ICouponService, CouponService>();
+builder.Services.AddScoped<IMessageBus, MessageBus>();
 
 builder.Services.AddControllers();
 
